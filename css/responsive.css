@@ -1,0 +1,23 @@
+@media (max-width: 991.98px) {
+    .text h3 {
+      
+        font-size: 50px;
+       
+    }
+    .birthday-box img {
+        max-width: 180px;
+    }
+    .message-box {
+        min-height: 184px;
+    }
+}
+@media (max-width: 575.98px) {
+    .text h3 {
+        font-size: 38px;
+        text-align: center;
+        -webkit-text-stroke-width: 2px;
+    }
+    .message-box {
+        min-height: 140px;
+    }
+ }

@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto:wght@900&display=swap');
+
+ section {
+     background-image: url('../images/7c202b97-ac76-4e9f-ba0c-4b29b213edc6.png');
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+
+ }
+
+ .birthday-box img {
+     height: auto;
+     width: 100%;
+     max-width: 245px;
+     object-fit: contain;
+     outline: 3px solid #CFE4EF;
+
+ }
+
+ .top-img {
+     display: flex;
+     justify-content: center;
+ }
+
+ .text h3 {
+     color: #E02620;
+     text-transform: uppercase;
+     font-family: 'Flow Circular', cursive;
+     font-family: 'Roboto', sans-serif;
+     font-size: 60px;
+     font-weight: 800;
+     padding-top: 4px;
+     letter-spacing: 1px;
+     -webkit-text-stroke-width: 3px;
+     -webkit-text-stroke-color: white;
+     text-shadow: 4px 5px 18px #c9c9c9;
+ }
+ .message-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #0CA1D5;
+    border-radius: 8px;
+    min-height: 200px;
+}
+.message-box span{
+    font-size: 22px;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    color: #0CA1D5;
+}
+.message-box span {
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    color: #0CA1D5;
+}
