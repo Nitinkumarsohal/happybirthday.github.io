@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,31 +12,37 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <!-- responsive css  -->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <section>
         <div class="container">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-8 col-sm-12 col-12 d-flex justify-content-center">
-                    <div class="birthday-box">
-                        <div class="top-img">
+                    <div class="birthday-box ">
+                        <div class="top-img" data-aos="zoom-in-up" data-aos-duration="1000">
                             <img src="images/boy.png" alt="">
                         </div>
-                        <div class="text">
+                        <div class="text" data-aos="zoom-in-up" data-aos-duration="1000">
                             <h3>happy birthday</h3>
                         </div>
-                        <div class="message-box">
+                        <div class="message-box" data-aos="zoom-in-up" data-aos-duration="1000">
                             <span>birthday message here</span>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </div>
     </section>
     <!-- bootstrap js  -->
     <script src="js/bootstrap.bundle.min.js"> </script>
+    <!-- aos js cdn  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
